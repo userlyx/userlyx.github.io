@@ -1,0 +1,149 @@
+body{
+    margin: 10px;
+    width: 100vw;
+    height: 100vh;    
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+    margin: 10px;
+}
+
+
+.header{
+    overflow: hidden;
+}
+
+.photo{
+    width: 25vw;
+    height: 24vw;
+    background-image: url(../img/photo.jpg);
+    border-radius: 50%;
+    background-size: 39vw;
+    background-position-x: -55vw;
+    float: left;
+    margin: 10px;
+
+}
+
+.imglist{
+    text-align: center;
+}
+
+
+
+
+.contianer{
+    
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    /* padding-left: 10px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px; */
+    padding: 30px 10px 30px 10px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    margin-left: atuo;
+    margin-right: atuo;
+    border-radius: 50px;
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 255, 0.12);
+    padding: 50px;
+    border-radius: 75px;
+    
+
+}
+
+.name{
+    font-size: 2rem;
+    font-family: cursive;
+}
+.information{
+    font-size: 1.5rem;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 3vh
+}
+.hobby{
+    font-size: 2rem;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 300;
+    padding: 3vh
+}
+.star{ font-size: 2rem;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 300;
+    padding: 3vh;
+
+}
+.birthday{ font-size: 2rem;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 300;
+    padding: 3vh;
+
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+a.btn.btn-green:hover {
+    background: #18805e;
+    color: #fff;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+.btn.btn-blue:hover {
+    background: #525c96;
+    color: #fff;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 10px;
+}
